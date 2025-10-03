@@ -70,6 +70,7 @@
 #define LWIP_IPV6 1
 #define LWIP_IPV6_MLD 0
 #define LWIP_IPV6_AUTOCONFIG 1
+#define LWIP_CHKSUM_ALGORITHM 1
 
 #if defined __APPLE__
 #include <TargetConditionals.h>
@@ -168,3 +169,4 @@
 #define LWIP_PERF 0
 
 #endif
+
